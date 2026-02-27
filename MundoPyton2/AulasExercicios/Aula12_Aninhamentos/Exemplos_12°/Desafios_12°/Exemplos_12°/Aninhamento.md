@@ -1,0 +1,16 @@
+Para mais de duas opções de uma condições usamos usamos o senao == elif
+
+Ex: if condição:
+        .......
+    elif condição:
+        ........
+    else:
+        ..........
+----------------------------------------------------------------------------------------------------
+Aninhamento é quando colocamos uma estrutura dentro de outra, no caso da programação uma estrutura dentro da outra como if dentro de if.
+if condição:
+    if condição:
+        if condição:
+        .............
+else:
+    .........
