@@ -18,8 +18,8 @@ while True:
             cedula = 10
         elif cedula == 10:
             cedula =1
-    total_cedulas = 0
-    if total == 0:
-        break
+        total_cedulas = 0
+        if total == 0:
+            break
 print("=" * 20)
 print("Volte sempre ao BANCO INTEC! Tenha um bom dia!")

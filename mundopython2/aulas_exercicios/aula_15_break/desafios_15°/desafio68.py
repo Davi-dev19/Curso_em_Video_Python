@@ -5,7 +5,8 @@ derrotas = 0
 while True:
     sorteio = randint(1, 10)
     valor_usuario = int(input("Digite um valor: "))
-    par_impar = str(input("Par ou ímpar? [P/I] ")).strip().upper()[0]
+    while par_impar not in "PI":
+        par_impar = str(input("Par ou ímpar? [P/I] ")).strip().upper()[0]
     resultado =  valor_usuario + sorteio
     if par_impar == "P":
         if resultado % 2 == 0:

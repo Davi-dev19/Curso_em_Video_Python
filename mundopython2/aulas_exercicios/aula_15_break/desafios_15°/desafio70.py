@@ -28,6 +28,6 @@ while True:
     if parar_continuar == "N":
         break
 print("-" * 12,"FIM DO PROGRAMA","-" * 12)
-print(f"O total gasto na compra foi de R${total_gasto:.1f} Reais.")
+print(f"O total gasto na compra foi de R${total_gasto:.2f} Reais.")
 print(f"{produtos_mil_mais} Produtos custam mais de R$1000 reais.")
-print(f"O produto mais barato foi {nome_produto_mais_barato} custando R${valor_produto_mais_barato:.1f} Reais.")
+print(f"O produto mais barato foi {nome_produto_mais_barato} custando R${valor_produto_mais_barato:.2f} Reais.")
