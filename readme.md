@@ -1,6 +1,6 @@
-# 🐍 Curso de Python - Mundo 1, 2, 3 & 4
+# 🐍 Curso de Python - Mundos 1, 2, 3 & 4
 
-Este repositório contém meus estudos, exercícios e desafios do curso de Python do **Curso em Vídeo**, ministrado pelo Professor Gustavo Guanabara.
+> **Status:** Projetos desenvolvidos como complemento prático durante a graduação em **Engenharia de Software (3º Período)**. 🎓
 
 ## 🚀 Estrutura do Repositório
 
