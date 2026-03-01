@@ -9,10 +9,10 @@ O curso é dividido em fases, focando desde a lógica básica até a programaç�
 
 | Mundo | Conteúdo Principal | Status |
 | :--- | :--- | :--- |
-| [Mundo 1](./mundopython1/aulas_exercicios/) | Fundamentos e Condicionais simples. | ✅ Concluído |
-| [Mundo 2](./mundopython2/aulas_exercicios/) | Estruturas de Repetição (For e While). | ✅ Concluído |
-| [Mundo 3](./mundopython3/aulas_exercicios/) | Tuplas, Listas, Dicionários, Funções e Módulos. | 🚧 Em progresso |
-| [Mundo 4](./mundopython4/aulas_exercicios/) | POO (Orientação a Objetos) e Projetos Finais. | ⏳ Planejado |
+| [Mundo 1](./mundopython1/) | Fundamentos e Condicionais simples. | ✅ Concluído |
+| [Mundo 2](./mundopython2/) | Estruturas de Repetição (For e While). | ✅ Concluído |
+| [Mundo 3](./mundopython3/) | Tuplas, Listas, Dicionários, Funções e Módulos. | 🚧 Em progresso |
+| [Mundo 4](./mundopython4/) | POO (Orientação a Objetos) e Projetos Finais. | ⏳ Planejado |
 
 ---
 
