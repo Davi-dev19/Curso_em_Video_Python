@@ -1,6 +1,6 @@
-# 🐍 Curso de Python - Mundo 1, 2, 3 & 4
+# 🐍 Curso de Python - Mundos 1, 2, 3 & 4
 
-Este repositório contém meus estudos, exercícios e desafios do curso de Python do **Curso em Vídeo**, ministrado pelo Professor Gustavo Guanabara.
+> **Status:** Projetos desenvolvidos como complemento prático durante a graduação em **Engenharia de Software (3º Período)**. 🎓
 
 ## 🚀 Estrutura do Repositório
 
@@ -9,10 +9,10 @@ O curso é dividido em fases, focando desde a lógica básica até a programaç�
 
 | Mundo | Conteúdo Principal | Status |
 | :--- | :--- | :--- |
-| [Mundo 1](./mundopython1/aulas_exercicios/) | Fundamentos e Condicionais simples. | ✅ Concluído |
-| [Mundo 2](./mundopython2/aulas_exercicios/) | Estruturas de Repetição (For e While). | ✅ Concluído |
-| [Mundo 3](./mundopython3/aulas_exercicios/) | Tuplas, Listas, Dicionários, Funções e Módulos. | 🚧 Em progresso |
-| [Mundo 4](./mundopython4/aulas_exercicios/) | POO (Orientação a Objetos) e Projetos Finais. | ⏳ Planejado |
+| [Mundo 1](./mundopython1/) | Fundamentos e Condicionais simples. | ✅ Concluído |
+| [Mundo 2](./mundopython2/) | Estruturas de Repetição (For e While). | ✅ Concluído |
+| [Mundo 3](./mundopython3/) | Tuplas, Listas, Dicionários, Funções e Módulos. | 🚧 Em progresso |
+| [Mundo 4](./mundopython4/) | POO (Orientação a Objetos) e Projetos Finais. | ⏳ Planejado |
 
 ---
 
