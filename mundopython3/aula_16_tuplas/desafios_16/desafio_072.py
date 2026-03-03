@@ -1,4 +1,7 @@
-"Exibindo o número que o usuário digitar de 0 a 20 por extenso"
+"""
+Desafio 072: Exibindo o número que o usuário digitar de 0 a 20 por extenso.
+O programa lê um número inteiro e busca sua representação em uma tupla imutável.
+"""
 
 numeros1 = ("ZERO", "UM", "DOIS", "TRÊS", "QUATRO", "CINCO", "SEIS", "SETE", "OITO", "NOVE", "DEZ")
 numeros2 = ("ONZE", "DOZE", "TREZE", "CATORZE", "QUINZE", "DEZESSEIS", "DEZESSETE", "DEZOITO", "DEZENOVE", "VINTE")

@@ -1,3 +1,8 @@
+"""
+Desafio 073: Manipulando tuplas com base na tabela do Brasileirão.
+Exibe os 5 primeiros, os 4 últimos, times em ordem alfabética e a posição de um time específico.
+"""
+
 times1 = ("Athletico-PR ", "Atlético-MG", "Bahia", "Botafogo", "Chapecoense", "Corinthians", "Coritiba", "Cruzeiro", "Flamengo", "Fluminense")
 times2 = ("Grêmio", "Internacional", "Mirassol", "Palmeiras", "Red Bull Bragantino", "Remo", "Santos", "São Paulo", "Vasco da Gama", "Vitória") 
 times = times1 + times2
