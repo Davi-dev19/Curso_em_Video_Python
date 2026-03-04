@@ -12,4 +12,11 @@ Ex:
 As tuplas são imutaveis. Após definir os valores dentro de uma tupla, não é possivel fazer qualquer alteração, seja ela: remover um elemento, adicionar um elemento ou substituir um elemento por outro.
 Elas utilizam o parenteses como sua estrutura de definição no inicio e final: ()
 ----------------------------------------------------------------------------------------------------------------------
-O comando len verifica o comprimento.
+Comandos:
+
+len() Verifica o comprimento de uma String ou variavel composta: quantos elementos existem naquela estrutura.
+tupla.index(item) Verifica em qual indice aquele item aperece primeiro.
+tupla.count(item) Verifica quantas vezes aquele item aparece.
+del(tupla) Deleta a tupla da memoria como se nunca tivesse existido.
+.sorted(tupla) Ordena em ordem alfabetica.
+----------------------------------------------------------------------------------------------------------------------------------Caso procure o indice de um elemento que não existe a linguarem irá gerar um erro. Portanto é sempre bom verificar antes da busca.

@@ -9,7 +9,7 @@ numeros = numeros1 + numeros2
 
 while True:
     numero_usuario = -1
-    continuar_parar = " "
+    #continuar_parar = " "
     
     while numero_usuario < 0 or numero_usuario > 20:
         numero_usuario = int(input("Digite um número de 0 a 20: "))
