@@ -1,7 +1,6 @@
 """
 Desafio 078: Manipulação de Listas dinâmicas e mapeamento de múltiplos índices de valores extremos.
 """
-
 numeros = []
 
 for indice in range(0, 5):

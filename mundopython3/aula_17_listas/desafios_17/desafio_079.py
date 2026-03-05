@@ -1,7 +1,6 @@
 """
 Desafio 079: Gerenciamento de coleções com restrição de duplicidade e ordenação ascendente.
 """
-
 numeros = []
 
 while True:

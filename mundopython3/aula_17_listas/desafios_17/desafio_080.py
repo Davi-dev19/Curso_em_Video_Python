@@ -1,9 +1,7 @@
 """
 Desafio 080: Implementação de algoritmo de ordenação por inserção em Listas dinâmicas.
 """
-
 numeros = []
-
 
 for indice in range(0, 5):
     numero = int(input("Digite um número: "))
