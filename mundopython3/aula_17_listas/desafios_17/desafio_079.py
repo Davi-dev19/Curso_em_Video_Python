@@ -8,6 +8,7 @@ while True:
     numero = int(input("Digite um número: "))
     if numero not in numeros:
         numeros.append(numero)
+        print("Valor adicionado com sucesso...")
         
     else:
         print(f"Não adicionaremos o número {numero}. Pois ele ja existe na lista.")
