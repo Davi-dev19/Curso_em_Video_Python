@@ -25,6 +25,7 @@ while True:
     if "N" in continuar_parar:
         break
 
+print("-=-" * 20)
 print(f"Ao todo você cadastrou {len(pessoas)} Pessoas.")
 print(f"O maior peso registrado foi de {maior_peso}kg. Peso que pertece:", end=" ")
 for p in pessoas:
