@@ -8,11 +8,13 @@ somatorio_terceira_coluna = 0
 for indice in range(0, 3):
     for posicao in range(0, 3):
         matriz[indice][posicao] = int(input("Digite um número: "))
-    
+
+print("-=-" * 20)    
 for indice in range(0, 3):
     for posicao in range(0, 3):
         print(f"{matriz[indice][posicao]:^5}", end="")
     print()
+print("-=-" * 20)
 
 for indice in range(0, 3):
     for posicao in range(0, 3):
