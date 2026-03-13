@@ -1,4 +1,5 @@
 Listas assim como tuplas são variaveis compostas que guardam valores e seus valores são percorridos por indice. No entanto diferente das tuplas elas são mutaveis e recebem colchetes no inicio e fim: []
+também pode ser decladada como: dados = list()
 ----------------------------------------------------------------------------------------------------------------------------------
 Ex:  
         
