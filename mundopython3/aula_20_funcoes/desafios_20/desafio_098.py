@@ -1,3 +1,9 @@
+"""
+Desafio 098: Motor de Contagem Progressiva e Regressiva.
+Lógica de Controle de Fluxo: Tratamento de Passo Nulo, Negativo e Inclusividade.
+Implementação de Feedback em Tempo Real com Buffer Flush e Controle de Delay.
+"""
+
 from time import sleep
 
 
@@ -24,9 +30,11 @@ print("Contagem de 10 a 0 de 2 em 2.")
 exibir_contagem(10, 0, 2)
 contagem = []
 print("Agora é a sua vez de personalizar a contagem: ")
+
 contagem.append(int(input("Qual número marcara o inicio da contagem? ")))
 contagem.append(int(input("Qual número marcara o fim da contagem? ")))
 contagem.append(int(input("Qual o tamanhos do salto? ")))
+
 print("-=" * 20)
 print(f"Contagem de {contagem[0]} até {contagem[1]} de {contagem[2]} em {contagem[2]}")
 exibir_contagem(*contagem)

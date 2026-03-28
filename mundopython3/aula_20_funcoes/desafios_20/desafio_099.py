@@ -1,3 +1,9 @@
+"""
+Desafio 099: Analisador de Grandezas em Sequências Numéricas.
+Empacotamento de Parâmetros (*args): Manipulação de Tuplas de Tamanho Variável.
+Implementação de Algoritmo de Comparação Pura para Identificação de Extremos.
+"""
+
 from time import sleep
 
 
@@ -6,6 +12,7 @@ def exibir_maior(*valores):
     maior = 0
     contador = 0
     print("Analisando valores passados...")
+
     for valor in valores:
         print(f"{valor}", end=' ', flush=True)
         sleep(0.5)
