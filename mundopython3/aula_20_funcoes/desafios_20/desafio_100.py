@@ -6,10 +6,9 @@ Implementação de Pipeline de Dados: Geração Aleatória e Processamento Filtr
 
 from random import randint
 from time import sleep
-numeros = []
 
 
-def sortear_numeros(numeros):
+def sortear_numeros(lista):
     '''Sorteando 5 valores aleatorios de 1 a 30'''
     print("Sorteando valores da lista:", end=' ', flush=True)
 
@@ -35,5 +34,6 @@ def somar_pares(lista):
     print(f"Temos {total_pares}")
 
 
+numeros = []
 sortear_numeros(numeros)
 somar_pares(numeros)

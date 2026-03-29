@@ -29,7 +29,7 @@ exibir_contagem(1, 10, 1)
 print("Contagem de 10 a 0 de 2 em 2.")
 exibir_contagem(10, 0, 2)
 contagem = []
-print("Agora é a sua vez de personalizar a contagem: ")
+print("Agora é a sua vez de personalizar a contagem!")
 
 contagem.append(int(input("Qual número marcara o inicio da contagem? ")))
 contagem.append(int(input("Qual número marcara o fim da contagem? ")))

@@ -4,10 +4,11 @@ Introdução a Funções: Passagem de Parâmetros e Abstração de Cálculos.
 Implementação de Interface de Entrada Dinâmica com Validação de Variáveis.
 """
 
+
 def calcular_area(largura, comprimento):
     '''Calculando Área do terreno'''
     area = largura * comprimento
-    print(f"A área do terreno: {largura:.1f}x{comprimento:.1f} é de: {area:.2f}m²")
+    print(f"A área do terreno: {largura:.1f}x{comprimento:.1f} é de: {area:.1f}m².")
 
 
 
