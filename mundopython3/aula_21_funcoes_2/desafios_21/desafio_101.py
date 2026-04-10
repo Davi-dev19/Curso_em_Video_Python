@@ -1,6 +1,6 @@
 def calcular_idade(ano_nasc):
     """
-    Calcula a idade baseada no ano atual.
+    --> Calcula a idade baseada no ano atual.
     :param ano_nasc: O ano de nascimento do usuário.
     :return: A idade calculada (int).
     """

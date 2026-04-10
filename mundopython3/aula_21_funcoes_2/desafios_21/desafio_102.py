@@ -1,7 +1,8 @@
 def calcular_fatorial(num=1):
     """
+    --> Calcula o fatorial de um número.
     :param num: recebe número int digitado pelo usuário para calcular seu fatorial.
-    :return f: O resultado fatorial do calculo (int)
+    :return f: O resultado fatorial do calculo (int).
     """
 
     f = 1
@@ -12,9 +13,11 @@ def calcular_fatorial(num=1):
 
 def exibir_fatorial(valor_fatorial, num=1, exibir_calculo = False):
     """
+    --> Exibir o valor fatorial de um número e caso o usuário queira, irá mostrar o calculo também.
     :param valor_fatorial: Resultado fatorial do número passado anteriormente
     :param num: valor passado anteriormente para calcular o fatorial.
     :param exibir_calculo: contem str S ou N, para verificar se exibi ou não os calculos.
+    :return: Nenhum retorno
     """
     from time import sleep
 
