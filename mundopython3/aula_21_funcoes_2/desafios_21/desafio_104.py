@@ -15,9 +15,9 @@ def tratar_dados():
 
 
 # ==============================================================================
-# DESAFIO 103: Ficha do Jogador (Sanitização de Dados)
-# Objetivo: Lidar com dados omissos e validar tipos primitivos via Strings.
-# Conceitos: .isnumeric(), .strip(), Parâmetros Opcionais e Programação Defensiva.
+# DESAFIO 104: Validando Entrada de Dados (leiaInt)
+# Objetivo: Criar uma função de leitura robusta com loop de validação infinito.
+# Conceitos: Encapsulamento de lógica, sanitização na borda e controle de fluxo.
 # ==============================================================================
 
 def exibir_dados(num):
