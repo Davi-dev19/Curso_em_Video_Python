@@ -25,7 +25,7 @@ def exibir_fatorial(valor_fatorial, num=1, exibir_calculo = False):
         borda = (num + 2) * 2
         print("--" * borda)
         for c in range(num, 0, -1):
-            sleep(1.2)
+            sleep(1)
             print(f"{c}",'x' if c > 1 else '=' ,end=' ', flush=True)
     else:
         print("--" * 2)
@@ -40,7 +40,6 @@ def exibir_fatorial(valor_fatorial, num=1, exibir_calculo = False):
 # ==============================================================================
 
 processo = ' '
-help(exibir_fatorial)
 numero = int(input("Qual número deseja descobrir o fatorial? "))
 while processo not in 'SN':
     processo = str(input("Deseja Visualizar o Processo? [S/N]: ")).upper().strip()[0]

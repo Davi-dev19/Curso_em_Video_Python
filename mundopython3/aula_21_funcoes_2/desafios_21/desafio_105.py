@@ -19,31 +19,31 @@ def adicionar_notas():
     print('--' * 20)
     while True:
         nota_entrada = str(input('Digite a nota: ')).strip()
-        nota_valida = True
-
+        nota_valida = False
+        
         if eh_float(nota_entrada):
             n = float(nota_entrada.replace(',', '.'))
             if n >= 0 and n <= 10:
+                nota_valida = True
                 notas.append(n)
             else:
-                nota_valida = False
                 print('A nota não pode ser inferior a 0 e nem superior a 10.')
         else:
-            nota_valida = False
-            print('ERRO! A nota Precisa ser um número inteiro.')
+            print(f'ERRO! A nota Precisa ser um número inteiro ou decimail e não pode ter mais de 1 ponto ou virgula.')
+    
 
         if nota_valida == True: 
             while True:
                 entrada = str(input('Deseja continuar a adicionar notas? [S/N]: ')).strip().upper()
-                if entrada in('S','N'):
+                if entrada in('S','N'): 
                     continuar_parar = (entrada == 'S')
-                    break
-                print('ERRO! Responda apenas S ou N.')
-        if continuar_parar == False:
-            break
-
-    print('--' * 20)
-    return notas
+                    if continuar_parar == True:
+                        break
+                    else:
+                        print('--' * 20)
+                        return notas
+                else:
+                    print('ERRO! Responda apenas S ou N.')   
 
 
 def processar_notas(*n):
@@ -51,7 +51,7 @@ def processar_notas(*n):
     --> Processa os valores que estavam dentro da lista colocando cada valor individualmente na tupla, funções como:
     len(), max(), min(), sum() foram usadas para processar os dados e em seguida esses dados processados foram
     guardados em um dicionario.
-    :param *n: Recebe a lista notas_alunos usando desepacotamento e empacotamento.
+    :param *n: Faz o empacotamento dos valores da lista notas_alunos que realizou o desempacotamento.
     :return alunos: Dicionario criado localmente para armazenar todos esses dados  e ser enviado para um dicionario
     global registro_alunos.
     """
@@ -113,9 +113,9 @@ def exibir_registro_alunos(reg_alunos,situacao=False):
     print(f'{"Dados Registrados".center(48)}')
     print('-=-' * 16)
     print(f'A quantidade de notas registradas foram: {reg_alunos["quantidade_notas"]} notas.')
-    print(f'A maior nota registrada foi: {reg_alunos["maior_nota"]}.')
-    print(f'A menor nota registrada foi: {reg_alunos["menor_nota"]}.')
-    print(f'A media das notas registradas foi: {reg_alunos["media_notas"]}.')
+    print(f'A maior nota registrada foi: {reg_alunos["maior_nota"]}')
+    print(f'A menor nota registrada foi: {reg_alunos["menor_nota"]}')
+    print(f'A media das notas registradas foi: {reg_alunos["media_notas"]:.1f}')
     if situacao:
         print(f'A situação geral foi: {reg_alunos["situação_geral"]}.')
     

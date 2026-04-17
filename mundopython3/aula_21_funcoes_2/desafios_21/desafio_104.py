@@ -9,7 +9,7 @@ def tratar_dados():
             numero = int(num)
             break
         else:
-            print("ERRO! Digite um número inteiro válido.")
+            print("\033[031mERRO! Digite um número inteiro válido.\033[m")
 
     return numero
 

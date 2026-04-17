@@ -1,9 +1,4 @@
 escolher_cor = (
-    """
-    --> Define cores para serem utilizadas durante o programa.
-    :param: Nenhum.
-    :return: Nenhum
-    """
     '\033[m',          # 0 - Sem Cor
     '\033[0;30;41m',   # 1 - Vermelho
     '\033[0;30;42m',   # 2 - Verde

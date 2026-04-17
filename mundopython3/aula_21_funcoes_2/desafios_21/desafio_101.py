@@ -29,7 +29,7 @@ def verificar_status_voto(idade_eleitor):
 # Conceitos: datetime, tratamento de idade e lógica condicional eleitoral.
 # ==============================================================================
 
-print("--" * 12)
+print("--" * 14)
 ano_nascimento = int(input("Em que ano você nasceu? "))
 idade = calcular_idade(ano_nascimento)
 print(verificar_status_voto(idade))
