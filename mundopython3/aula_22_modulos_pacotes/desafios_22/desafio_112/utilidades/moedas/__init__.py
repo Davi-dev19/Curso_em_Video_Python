@@ -1,0 +1,79 @@
+def calcular_metade_valor(n, formatar=False):
+    """
+    --> Calcula a Matade do valor.
+    :param n: Recebe preco.
+    :return resposta.
+    """
+    resposta = n / 2
+    return formatar_preco(resposta) if formatar else resposta
+
+
+def calcular_dobro_valor(n, formatar=False):
+    """
+    --> Calcula o dobro do valor.
+    :param n: Recebe preco.
+    :return resposta.
+    """
+    resposta = n * 2
+    return formatar_preco(resposta) if formatar else resposta
+
+
+def aumentar_porcentagem_valor(n=0, taxa=10, formatar=False):
+    """
+    --> Calcula o valor + taxa sobre o valor.
+    :param n: Recebe preco.
+    :param taxa: taxa_aumento.
+    :return resposta."""
+    valor_aumentado = taxa/100 * n
+    resposta = n + valor_aumentado
+
+    return formatar_preco(resposta) if formatar else resposta
+
+
+def reduzir_porcentagem_valor(n=0, taxa=10, formatar=False):
+    """
+    --> Calcula o valor - taxa sobre o valor.
+    :param n: Recebe preco.
+    :param taxa: taxa_reduzir.
+    :return resposta.
+    """
+    valor_redutor = taxa/100 * n
+    resposta = n - valor_redutor
+
+    return formatar_preco(resposta) if formatar else resposta
+
+
+def formatar_preco(preco=0, simbolo_monetario="R$"):
+    """
+    Transforma um valor numérico em uma string formatada como moeda.
+    :param preco: O valor numérico a ser formatado.
+    :param simbolo_monetario: O símbolo da moeda (padrão R$).
+    :return: String formatada com o símbolo e vírgula.
+    """
+    valor_ajustado = f'{preco:.2f}'.replace(".", ",")
+    
+    return f'{simbolo_monetario}{valor_ajustado}'
+
+
+def exibir_tabela(preco=0, taxa_a=10, taxa_r=13, formatar= False):
+    """
+    --> Exibe os resultados em formato de tabela.
+    :param preco: recebe preco.
+    :param taxa_a: recebe taxa_aumento.
+    :param taxa_r: recebe taxa_reduzida.
+    :return nenhum."""
+
+    print('-' * 36)
+    print(f'{"RESUMO DO VALOR".center(36)}')
+    print('-' * 36)
+
+    print(f'{"Preço analisado:":<26}{formatar_preco(preco):>10}')
+    print(f'{"Dobro do preço:":<26}{calcular_dobro_valor(preco, formatar):>10}')
+    print(f'{"Metade do preço:":<26}{calcular_metade_valor(preco, formatar):>10}')
+
+    desc_aumento = f'{taxa_a}% de aumento:'
+    print(f'{desc_aumento:<26}{aumentar_porcentagem_valor(preco, taxa_a, formatar):>10}')
+
+    desc_reducao = f'{taxa_r}% de redução:'
+    print(f'{desc_reducao:<26}{reduzir_porcentagem_valor(preco, taxa_r, formatar):>10}')
+    print('-' * 36)
