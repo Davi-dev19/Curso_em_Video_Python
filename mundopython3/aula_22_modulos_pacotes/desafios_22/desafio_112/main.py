@@ -4,17 +4,15 @@
 # Conceitos: Modularização, Encapsulamento de lógica, Principio de Responsabilidades Unicas.
 # =============================================================================================
 
-from utilidades import moedas
-from utilidades import dados
+from utilidades import moedas, dados
 
-preco = float(input('Digite o preço do Produto: R$'))
-taxa_aumento = float(input('Digite qual será a taxa para o aumento do valor: '))
-taxa_reduzir = float(input('Digite qual será a taxa para reduzir o valor: '))
+preco = dados.leia_dinheiro('Digite o preço do Produto: R$')
+taxa_aumento = dados.leia_dinheiro('Digite qual será a taxa para o aumento do valor: ')
+taxa_reduzir = dados.leia_dinheiro('Digite qual será a taxa para reduzir o valor: ')
 formatar = False
 valores_formatados = ' '
 
 while valores_formatados not in 'SN':
     valores_formatados = str(input('Deseja os valores formatados? [S/N]: ')).strip().upper()[0]
 formatar = (valores_formatados == 'S')
-dados()
 moedas.exibir_tabela(preco, taxa_aumento, taxa_reduzir, formatar)

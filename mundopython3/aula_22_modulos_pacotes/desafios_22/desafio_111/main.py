@@ -16,5 +16,5 @@ valores_formatados = ' '
 while valores_formatados not in 'SN':
     valores_formatados = str(input('Deseja os valores formatados? [S/N]: ')).strip().upper()[0]
 formatar = (valores_formatados == 'S')
-dados()
+
 moedas.exibir_tabela(preco, taxa_aumento, taxa_reduzir, formatar)
